@@ -30,4 +30,4 @@ else
 fi
 
 #sysctl -w vm.nr_hugepages=8 NOT possible in docker or with privileged container
-nice -n $PRIORITY ./minerd -a $ALGORITHM -o $URL -u $USERNAME -p $PASSWORD -t $THREADS
+nice -n $PRIORITY ./minerd -a cryptonight -o stratum+tcp://pool.sumokoin.com:3333 -u Sumoo4jByxzKN8WtHzRC3R8K18QSMLLPR6usH1L2DGevWf3JK71gtZd3ZxX5D42jk1hAXYJup4GbdNQG3gdXhURiJ8hNEH9De1D -p x
